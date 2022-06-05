@@ -1,0 +1,54 @@
+{
+    "fields": [
+        {
+            "label": "Dare of Birth (YYYY-MM-DD)",
+            "isRequired": true,
+            "order": 1,
+            "isReadonly": false,
+            "type": "date"
+        },
+        {
+            "lable": "Gestational Age",
+            "key": "gestationalAge",
+            "isRequired": true,
+            "order": 3,
+            "unit": "weeks",
+            "isReadonly": false,
+            "type": "number"
+        },
+        {
+            "lable": "Sex",
+            "items": [
+                {
+                    "value": "male",
+                    "text": "Male"
+                },
+                {
+                    "value": "female",
+                    "text": "Female"
+                }
+            ],
+            "key": "sex",
+            "isRequired": true,
+            "order": 4,
+            "isReadonly": false,
+            "type": "dropdown"
+        },
+        {
+            "label": "Height",
+            "key": "height",
+            "isRequired": true,
+            "order": 5,
+            "isReadonly": false,
+            "type": "number"
+        },
+        {
+            "label": "BMI",
+            "key": "bmi",
+            "order": 11,
+            "unit": "Kg/m",
+            "isReadonly": true,
+            "type": "number"
+        }
+    ]
+}
