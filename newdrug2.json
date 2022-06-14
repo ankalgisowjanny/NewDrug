@@ -1,0 +1,39 @@
+[
+  {
+    "name": "fields",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "label",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "Key",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "isRequired",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "order",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "isReadonly",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  }
+]
